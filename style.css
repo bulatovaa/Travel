@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-family: "Aleo", serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+}
