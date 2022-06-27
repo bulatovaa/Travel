@@ -11,27 +11,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__content">
-            <div class="wrapper">
-
+    <div class="header-background">
+        <header class="header">         
+            <div class="wrapper flex-wrapper">
+                <div class="header__logo logo">
+                    <span class="logo__icon"></span>
+                    <span class="logo__text">Travel Portal</span>
+                </div>
+                <nav class="header__navigation">
+                    <ul class="navigation__list flex-wrapper">
+                        <li class="navigation__item"><a href="#" class="navigation__link">How It Works</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Plan Your Trip</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Destinations</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Travel Stories</a></li>
+                    </ul>
+                </nav>
+                <button class="header__button main-button">Login</button>
             </div>
-        </div>
+        </header>
         <section class="preview">
             <div class="wrapper">
-                
+                <h1 class="preview__title">Explore the beauty of the World</h1>
+                <h3 class="preview__description">Receive personalized recommendations for countries, hotels, activities and more</h3>
+                <form action="" method="post" class="preview__form">
+                    <input type="search" placeholder="What would you like to do?" class="preview__input">
+                    <button class="preview__button button">Start Planning</button>
+                </form>
             </div>
         </section>
-    </header>
+    </div>
+    
 
     <main>
         <section class="steps"></section>
 
         <section class="destinations"></section>
-
-        <section class="stories"></section>
     </main>
 
-    <footer class="footer"></footer>
+    <div class="footer-background">
+        <section class="stories"></section>
+        <footer class="footer">
+
+        </footer>
+    </div>
 </body>
 </html>
