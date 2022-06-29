@@ -33,6 +33,12 @@ body {
     display: flex;
 }
 
+.logo__text:hover {
+    cursor: pointer;
+    color: #0D606F;
+    opacity: 0.8;
+}
+
 .logo__icon {
     background: url("assets/images/svg/logo-icon.svg");
     width: 30px;
@@ -56,6 +62,12 @@ body {
     font-weight: 500;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.main-button:hover {
+    cursor: pointer;
+    background: #0D606F;
+    opacity: 0.8;
 }
 
 .section-title {
@@ -89,6 +101,12 @@ body {
     font-weight: 500;
     font-size: 1.6rem;
     color: #FFFFFF;
+}
+
+.navigation__link:hover {
+    cursor: pointer;
+    color: #0D606F;
+    opacity: 0.8;
 }
 
 .header__button {
@@ -337,4 +355,44 @@ body {
     line-height: 2.4rem;
     text-decoration-line: underline;
     color: #0D606F;
+}
+
+/* ----------- FOOTER ------------- */
+
+.footer {
+    padding: 13px 0;
+}
+
+.footer__rights {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+}
+
+.footer__socials {
+    gap: 20px;
+}
+
+.footer__social {
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.instagram {
+    background: url("assets/images/svg/socials/instagram-icon.svg") no-repeat;
+}
+
+.youtube {
+    background: url("assets/images/svg/socials/youtube-icon.svg") no-repeat;
+}
+
+.twitter {
+    background: url("assets/images/svg/socials/twitter-icon.svg") no-repeat;
+}
+
+.social-hover {
+    fill: #0D606F;
 }
