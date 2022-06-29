@@ -203,3 +203,78 @@ body {
     line-height: 2.4rem;
     color: #0D606F;
 }
+
+/* -------- DESTINATIONS SECTION ---------- */
+
+.destinations {
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.destinations__title {
+    margin-bottom: 46px;
+}
+
+.destinations__block {
+    margin-bottom: 24px;
+    gap: 60px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.destinations__item {
+    position: relative;
+}
+
+.destinations__image {
+    max-width: 800px;
+    border-radius: 16px;
+}
+
+.destinations__name {
+    position: absolute;
+    left: 15px;
+    top: 718px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 3.2rem;
+    color: #FFFFFF;
+}
+
+.slider-points {
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.slider-points__item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 50%;
+}
+
+.point-active {
+    background: #F2785C;
+}
+
+.destinations__button {
+    padding: 13px 31px;
+    font-size: 2.4rem;
+    gap: 10px;
+    max-width: 228px;
+    align-self: center;
+}
+
+.destinations__button_arrow {
+    display: inline-block;
+    width: 35px;
+    height: 22.5px;
+    background: url("assets/images/svg/button-arrow.svg");
+}
+
+/* --------- STORIES SECTION ----------- */
+
