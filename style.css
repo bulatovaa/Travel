@@ -9,6 +9,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -37,6 +38,7 @@ body {
     cursor: pointer;
     color: #0D606F;
     opacity: 0.8;
+    transition: 0.3s;
 }
 
 .logo__icon {
@@ -68,6 +70,7 @@ body {
     cursor: pointer;
     background: #0D606F;
     opacity: 0.8;
+    transition: 0.3s;
 }
 
 .section-title {
@@ -107,6 +110,7 @@ body {
     cursor: pointer;
     color: #0D606F;
     opacity: 0.8;
+    transition: 0.3s;
 }
 
 .header__button {
@@ -327,7 +331,7 @@ body {
 }
 
 .stories__image {
-    max-width: 400;
+    max-width: 400px;
     border-radius: 16px;
     filter: drop-shadow(0px 4px 4px #0D606F);
 }
@@ -391,8 +395,4 @@ body {
 
 .twitter {
     background: url("assets/images/svg/socials/twitter-icon.svg") no-repeat;
-}
-
-.social-hover {
-    fill: #0D606F;
 }

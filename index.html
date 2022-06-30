@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/svg/logo-icon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text&display=swap" rel="stylesheet">
@@ -20,20 +21,20 @@
                 </div>
                 <nav class="header__navigation">
                     <ul class="navigation__list flex-wrapper">
-                        <li class="navigation__item"><a href="#" class="navigation__link">How It Works</a></li>
-                        <li class="navigation__item"><a href="#" class="navigation__link">Plan Your Trip</a></li>
-                        <li class="navigation__item"><a href="#" class="navigation__link">Destinations</a></li>
-                        <li class="navigation__item"><a href="#" class="navigation__link">Travel Stories</a></li>
+                        <li class="navigation__item"><a href="#preview" class="navigation__link">How It Works</a></li>
+                        <li class="navigation__item"><a href="#steps" class="navigation__link">Plan Your Trip</a></li>
+                        <li class="navigation__item"><a href="#destinations" class="navigation__link">Destinations</a></li>
+                        <li class="navigation__item"><a href="#stories" class="navigation__link">Travel Stories</a></li>
                     </ul>
                 </nav>
                 <button class="header__button main-button">Login</button>
             </div>
         </header>
-        <section class="preview">
+        <section class="preview" id="preview">
             <div class="preview__container">
                 <h1 class="preview__title">Explore the beauty of the World</h1>
                 <h3 class="preview__description">Receive personalized recommendations for countries, hotels, activities and more</h3>
-                <form action="" method="post" class="preview__form">
+                <form method="POST" class="preview__form">
                     <input type="search" placeholder="What would you like to do?" class="preview__input">
                     <button class="preview__button main-button">Start Planning</button>
                 </form>
@@ -41,7 +42,7 @@
         </section>
     </div>
     <main>
-        <section class="steps">
+        <section class="steps" id="steps">
             <div class="wrapper">
                 <h2 class="steps__title section-title">3 STEPS TO THE PERFECT TRIP</h2>
                 <div class="steps__block flex-wrapper">
@@ -57,7 +58,7 @@
                 </div>
             </div>
         </section>
-        <section class="destinations">
+        <section class="destinations" id="destinations">
             <h2 class="destinations__title section-title">POPULAR DESTINATIONS</h2>
             <div class="destinations__block flex-wrapper">
                 <div class="destinations__item">
@@ -85,7 +86,7 @@
         </section>
     </main>
     <div class="footer-background">
-        <section class="stories">
+        <section class="stories" id="stories">
             <div class="wrapper vertical-flex">
                 <h2 class="stories__title section-title">TRAVEL STORIES</h2>
                 <div class="stories__block flex-wrapper">
@@ -130,11 +131,10 @@
         <footer class="footer">
             <div class="wrapper flex-wrapper">
                 <span class="footer__rights">All Rights Reserved © Travel Portal</span>
-                <div class="footer__socials flex-wrapper">
-                    <span class="footer__social instagram"><a href="#" class="footer__link"></a></span>
-                    <span class="footer__social youtube"><a href="#" class="footer__link"></a></span>
-                    <span class="footer__social twitter"><a href="#" class="footer__link"></a></span>
-                </div>
+                <ul class="footer__socials flex-wrapper">
+                    <li class="footer__social youtube"><a href="https://rs.school/js-stage0/" class="footer__link"></a></li>
+                    <li class="footer__social twitter"><a href="https://github.com/bulatovaa/Travel" class="footer__link"></a></li>
+                </ul>
             </div>
         </footer>
     </div>
