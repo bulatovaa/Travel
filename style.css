@@ -191,6 +191,7 @@ body {
 
 .steps__block {
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .steps__item {
@@ -207,15 +208,15 @@ body {
 }
 
 .steps__image-1 {
-    background: url("assets/images/svg/steps-icon-1.svg");
+    background: url("assets/images/svg/steps-icon-1.svg") center;
 }
 
 .steps__image-2 {
-    background: url("assets/images/svg/steps-icon-2.svg");
+    background: url("assets/images/svg/steps-icon-2.svg") center;
 }
 
 .steps__image-3 {
-    background: url("assets/images/svg/steps-icon-3.svg");
+    background: url("assets/images/svg/steps-icon-3.svg") center;
 }
 
 .steps__text {
@@ -385,14 +386,23 @@ body {
     cursor: pointer;
 }
 
-.instagram {
-    background: url("assets/images/svg/socials/instagram-icon.svg") no-repeat;
-}
-
 .youtube {
     background: url("assets/images/svg/socials/youtube-icon.svg") no-repeat;
 }
 
 .twitter {
     background: url("assets/images/svg/socials/twitter-icon.svg") no-repeat;
+}
+
+/* --------- ADAPTIVE ---------- */
+
+.burger-menu, .destinations__block_adaptive, .destination__arrows {
+    display: none;
+}
+
+.burger-menu__icon {
+    display: inline-block;
+    width: 35px;
+    height: 32px;
+    background: url("assets/images/svg/adaptive/burger-menu.svg");
 }

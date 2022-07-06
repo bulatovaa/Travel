@@ -1,0 +1,289 @@
+@media (max-width: 1024px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+    .header__navigation {
+        width: 450px;
+    }
+    .preview__input {
+        width: 620px;
+        height: 80px;
+        padding-left: 35px;
+    }
+    .preview__input::placeholder {
+        font-size: 2rem;
+    }
+    .preview__button {
+        width: 180px;
+        height: 50px;
+        font-size: 2rem;
+        left: 400px;
+        top: 14px;
+    }
+  }
+
+  @media (max-width: 796px) {
+    .logo__text {
+        font-size: 2.8rem;
+
+    }
+    .header__button {
+        width: 90px;
+        padding: 5px 15px;
+    }
+    .preview__title {
+        font-size: 6rem;
+        line-height: 6rem;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    .preview__input {
+        width: 480px;
+        height: 70px;
+        padding-left: 30px;
+    }
+    .preview__input::placeholder {
+        font-size: 1.8rem;
+    }
+    .preview__button {
+        width: 148px;
+        height: 45px;
+        font-size: 1.8rem;
+        left: 300px;
+        top: 12px;
+    }
+    .destinations__name {
+        left: 115px;
+        font-size: 2.4rem;
+    }
+    .stories {
+        padding-bottom: 20px;
+    }
+    .stories__title {
+        margin-bottom: 24px;
+    }
+    .stories__block {
+        margin-bottom: 20px;
+    }
+    .stories__item {
+        flex-direction: column;
+    }
+    .stories__subtitle {
+        font-size: 2.4rem;
+        margin-bottom: 12px;
+    }
+    .stories__text {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .stories__link {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    .footer-background {
+        background: url("assets/images/jpg/backgrounds/adaptive/stories-bg-adaptive.jpg") no-repeat cover;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .wrapper {
+        max-width: 358px;
+        padding: 0;
+    }
+    .logo__text, .header__navigation, .header__button {
+        display: none;
+    }
+    .section-title {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+    .header-background {
+        width: 100%;
+        background: url("assets/images/jpg/adaptive/header-bg-adaptive.jpg") no-repeat center;
+        z-index: 2;
+    }   
+    .header {
+        background: none;
+        box-shadow: none;
+        padding-top: 43px;
+        padding-bottom: 67px;
+    } 
+    .burger-menu {
+        display: flex;
+    }
+    .preview {
+        padding: 0;
+        padding-bottom: 61px;
+    }
+    .preview__container {
+        max-width: 360px;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .preview__title, .preview__description {
+        display: none;
+    }
+    .preview__input {
+        width: 360px;
+        height: 48px;
+    }
+    .preview__input::placeholder {
+        font-size: 1.4rem;
+    }
+    .preview__button {
+        width: 92px;
+        height: 30px;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        left: 259px;
+        top: 9px;
+    }
+    .steps {
+        padding: 20px 0;
+    }
+    .steps__block {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    .steps__title {
+        margin-bottom: 20px;
+    }
+    .steps__item {
+        max-width: 111px;
+    }
+    .steps__image {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 19px;
+        border-radius: 16px;
+    }
+    .steps__image-1 {
+        background: url("assets/images/svg/adaptive/steps-1-adaptive.svg");
+    }
+    .steps__image-2 {
+        background: url("assets/images/svg/adaptive/steps-2-adaptive.svg");
+    }
+    .steps__image-3 {
+        background: url("assets/images/svg/adaptive/steps-3-adaptive.svg");
+    }
+    .steps__text {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+    .destinations {
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .destinations__block {
+      display: none;  
+    }
+    .destinations__block_adaptive {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    .destinations__item {
+        margin-left: 15px;
+    }
+    .destinations__title {
+        margin-bottom: 20px;
+    }
+    .destinations__image {
+        max-width: 360px;
+    }
+    
+    .destinations__name {
+        position: absolute;
+        left: 15px;
+        top: 718px;
+        font-family: 'Red Hat Text', sans-serif;
+        font-weight: 500;
+        font-size: 3.2rem;
+        color: #FFFFFF;
+    }
+    .destination__arrows {
+        display: flex;
+    }
+    .destinations__arrow {
+        position: absolute;
+        width: 15px;
+        height: 26px;
+        background: url("assets/images/svg/adaptive/slider-arrow.svg");
+        z-index: 2;
+        top: 130px;
+    }
+    .arrow-left {
+        left: 25px;
+    }
+    .arrow-right {
+        right: 25px;
+        transform: rotate(180deg);
+    }
+    .slider-points {
+        position: absolute;
+        z-index: 2;
+        bottom: 35px;
+        left: calc(100%/2 - 18px);
+        gap: 6px;
+    }
+    .slider-points__item {
+        width: 8px;
+        height: 8px;
+    }  
+    .button-arrow {
+        padding: 7px 12px;
+        font-size: 1.1rem;
+        gap: 6px;
+        max-width: 92px;
+        align-self: center;
+    }
+    .button-arrow__icon {
+        background: url("assets/images/svg/adaptive/button-arrow-adaptive.svg");
+        width: 9px;
+        height: 6px;
+    }
+    .stories {
+        padding-bottom: 13px;
+    }
+    .stories__title {
+        margin-bottom: 20px;
+    }
+    .stories__block {
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .stories__item {
+        flex-direction: row;
+        gap: 15px;
+    }
+    .stories__image {
+        max-width: 155px;
+        height: 130px;
+    }
+    .stories__subtitle {
+        font-weight: 800;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .stories__text {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+        margin: 0;
+    }
+    .stories__link {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+    .footer {
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__rights {
+        display: none;
+    }
+  }
