@@ -10,13 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
 </head>
 <body>
     <div class="header-background">
         <header class="header">         
             <div class="wrapper flex-wrapper">
                 <div class="header__logo logo">
-                    <span class="logo__icon"></span>
+                    <span class="logo__icon"><a href="#"></a></span>
                     <a href="#" class="logo__link"><span class="logo__text">Travel Portal</span></a>
                 </div>
                 <nav class="header__navigation">
@@ -28,6 +29,9 @@
                     </ul>
                 </nav>
                 <button class="header__button main-button">Login</button>
+                <div class="burger-menu">
+                    <span class="burger-menu__icon"></span>
+                </div>
             </div>
         </header>
         <section class="preview" id="preview">
@@ -73,6 +77,24 @@
                     <img src="assets/images/jpg/destinations-3.jpg" alt="USA" class="destinations__image">
                     <span class="destinations__name">USA</span>
                 </div>
+            </div>
+            <div class="destinations__block_adaptive flex-wrapper">
+                <div class="destinations__item">
+                    <img src="assets/images/jpg/adaptive/destinations-1-adaptive.jpg" alt="Spain" class="destinations__image">
+                    <span class="destinations__name">SPAIN</span>
+                </div>
+                <div class="destinations__item">
+                    <img src="assets/images/jpg/adaptive/destinations-2-adaptive.jpg" alt="Japan" class="destinations__image">
+                    <span class="destinations__name">JAPAN</span>
+                </div>
+                <div class="destinations__item">
+                    <img src="assets/images/jpg/adaptive/destinations-3-adaptive.jpg" alt="USA" class="destinations__image">
+                    <span class="destinations__name">USA</span>
+                </div>
+            </div>
+            <div class="destination__arrows">
+                <span class="destinations__arrow arrow-left"></span>
+                <span class="destinations__arrow arrow-right"></span>
             </div>
             <div class="slider-points flex-wrapper">
                 <span class="slider-points__item"></span>
